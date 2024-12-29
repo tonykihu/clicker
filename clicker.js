@@ -21,7 +21,7 @@ clicker.addEventListener("click", async () => {
     
         const randomEmoji = await getEmoji();
         emojiPara.textContent += randomEmoji; // Add the emoji to the paragraph
-      });
+      ;
       
       
 });
